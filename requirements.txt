@@ -1,0 +1,6 @@
+pyqt5>=5.15
+scapy>=2.5
+pyqtgraph
+cryptography
+pyopenssl
+dpkt
