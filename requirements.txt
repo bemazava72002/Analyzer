@@ -1,5 +1,5 @@
 pyqt5>=5.15
-scapy>=2.5
+scapy
 pyqtgraph
 cryptography
 pyopenssl
