@@ -67,6 +67,7 @@
 #         except Exception as e:
 #             if self._err_cb: self._err_cb(f"Capture init error: {e}")
 
+
 # backend/capture_backend.py
 # 
 # capture_backend.py
