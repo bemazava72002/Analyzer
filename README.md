@@ -52,30 +52,19 @@ Avant de commencer, assure-toi d’avoir installé :
    cd Analyzer
    ```
 
-3. **cd venv\Scripts**
+3. **Création de virtual env**
 
    ```bash
    python -m venv venv
    ```
-4. **.\activate.bat**
-5. **cd ..(jusqu'au repertoire Analzer)**
-6. **installation des packages**
-   
-8. 
-4. **Activer l’environnement virtuel**
+4. **Activation de virtual env**
+   ```bash
+   cd venv\Scripts
+   .\activate.bat
+   cd ..(jusqu'au repertoire parent)
+   ```
 
-   * Windows :
-
-     ```bash
-     cd venv\Scripts
-     ```
-     ```bash
-     .\activate.bat
-     ```
-    ```bash
-     cd ..(jusqu'au repertoire Analyzer)
-     ```
-5. **Installer les dépendances** (si `requirements.txt` existe)
+.5 **Installer les dépendances** (si `requirements.txt` existe)
 
    ```bash
    pip install -r requirements.txt
@@ -90,7 +79,6 @@ Selon la structure du projet, exécuter le fichier principal :
 ```bash
 python capture_live.py
 ```
-
 
 
 ## Structure du projet
