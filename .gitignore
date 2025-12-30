@@ -1,3 +1,4 @@
 algorithm
 __pycache__
 venv
+.gitignore
